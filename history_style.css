@@ -1,24 +1,16 @@
-:root {
-    --text-color:black;
-    --body_background-color:rgb(255, 255, 245);
-    --dash_background-color:rgb(255, 255, 194);
-    --accent-color: #459ab6
-}
-
-
 body {
     margin:0;
     font-family: "Do Hyeon";
     font-family: "Source Sans Pro";
-    background:var(--body_background-color);
+    background:rgb(255, 255, 245);
 }
 a {
-    color:var(--text-color);
+    color:black;
     text-decoration: none;
 }
 .dash {
-    background-color: var(--dash_background-color);
-    color:var(--text-color);
+    background-color: rgb(255, 255, 194);
+    color:black;
     display:flex;
     flex-direction:row;
     justify-content:space-around;
@@ -69,7 +61,11 @@ a {
     color:#459ab6;
     display:none;
 }
-
+.history__index {
+    list-style: none;
+    background-color: aquamarine;
+    flex-direction: column;
+}
 
 @media (max-width:870px){
     .dash {
